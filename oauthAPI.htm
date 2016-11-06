@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>oauth (API)</title>
+<body>
+</head>
+    <form>
+	<input name="feed_url"/>
+	<input type="submit" vulue="Read"/>
+	</form>
+	<?php
+	   if (isset($_REQUEST['feed_url'])){
+		   require './vendor/outoload';
+		   
+		   $myClient = new guzzlehttp\client([
+		   'headers'=>['User-Agent'=>'MyReader']
+		   ]);
+		   
+		 $feed_response = $myClient->request('GET', $_REQUEST[])
+		 if ($feed_response->getstatusCode() == 200){
+		     if($feed_response->hasHeader('content-length')){
+			      $contentlenght = $feed_response-getHeader('content-length')[0];
+				  echo "<p> Downloaded $contentlenght bytes of data. </p>";
+			 }
+			 $body = $feed_response->getBody();
+			 $xml = new SampleXMLElement($body);
+			 
+			    foreach($xml->ch $item
+				    echo "<h3>" . $item->title . "</h3>";
+					echo "<p>" . $item->description . "</p>";
+		 }
+	   }
+	    
+?>
+
+</body>
+</html>

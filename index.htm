@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+
+ <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width" />
+<title> hater blocker v2.0</title>
+<link rel="shortcut icon" href="images/ic_launcher.png">
+
+</head>
+<body style="background-color:#fafafa">
+
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet" href="http://localhost/hater-blocker/css/botstrap.css" >
+<div class="tab rpi-m-1">
+<style class="botstrap.css"> 
+#parallax {
+      background-image: url("images/imageaa45.jpg");
+}
+
+</style>
+</div>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="helpform.htm">help</a>
+<a href="settings.htm">settings<a>
+<a href="aboutcredits.htm">about/credits</a>
+</div>
+
+<span class="font tty-1" onclick="openNav()"><img src="images/menu.png" style="width: 50%; height: 50%;"/></span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<script>
+
+var isiOS = /iPhone|iPad|iPod/i.test(navigator.userAgent)
+
+
+if (!isiOS){
+ window.addEventListener('scroll', function(){ // on page scroll
+  requestAnimationFrame(parallaxbubbles) // call parallaxbubbles() on next available screen paint
+ }, false)
+
+ window.addEventListener('resize', function(){ // on window resize
+  var scrolltop = window.pageYOffset // get number of pixels document has scrolled vertically
+  var scrollamount = (scrolltop / (scrollheight-windowheight)) * 100 // get amount scrolled (in %)
+  fish.style.left = -100 + scrollamount + '%' // set position of fish in percentage (starts at -100%)
+ }, false)
+}
+</script>
+<div id="parallax"></div>
+
+<div class="rpi-m-1 tab">
+<h2 class="pos_left"><a class="hi" href="helpform.htm">help</a></h2>
+<h2 class="pos_x" ><a class="hi" href="settings.htm">settings<a></h2>
+<h2 class="pot_y" ><a class="hi" href="aboutcredits.htm">about/credits</a></h2>
+</div>
+
+<a class="act" href="" onclick="myFunction()">Sign Up!</a>
+
+<a class="ghost-button" href="" onclick="myFunction()">get started!</a>
+
+<a class="act1" href="https://twitter.com/sunPECKgaming" target="_blank" onclick="openup()">Get Updated!</a>
+
+<script>
+function myFunction() {
+    var myWindow = window.open("", "", "width=1000,height=800");
+}
+</script>
+
+
+
+<div id="textTab">
+
+  <form action="filters.php" method="post" >
+  <p><b>filter options</b></p><input type = "text" name = "text" class="target-search" id="channel-target-search" data-which="moderator" placeholder="Filter options (e.g KYS, FUCK YOU ect)
+"  casesincitevrole="fulse" role="combobox" size="34"></p>
+  </form>
+</div>
+<img class="cmma" src="images/ic_launcher.png" alt="logo" style="width: 70px; height: 70px;"/>
+<img class="ico" src="images/chat.png" alt="ico" style="width: 60px; height: 60px;"/>
+
+<img class="ico1" src="images/controls.png" alt="ico" style="width: 60px; height: 60px; "/>
+
+<img class="ico2" src="images/twitter.png" alt="ico" style="width: 60px; height: 60px; "/>
+
+<h3 style="position: absolute; top: 900px; left: 10%;">You wont beleve it!</h3>
+<p style="position: absolute; top: 930px; left: 6%;"> sign up now and you will social media like <br> never
+  before! Hater blacker is guaranteed to <br> protecting you on scoial media, meaning No narstys!</p>
+  <h3 style="position: absolute; top: 900px; left: 38.5%;"> Up Coming!</h3>
+  <p style="position: absolute; top: 930px; left: 34.5%;"> New advanced setting coming
+  later <br> after the release of hater blocker. So you <br> can alter Hater blocker
+  to your suiting! </p>
+  <h3 style="position: absolute; top: 900px; left: 63.3%;">For update news?</h3>
+  <p style="position: absolute; top: 930px; left: 60%;">For constant update news on whats coming. <br> Follow sunPECKgaming on twitter!</p>
+    <footer>
+
+  <div id="htd">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="995865C9N9M86">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div>
+<div class="nav-bar">
+<p class="pa" style="color: white;">© Haterblocker.twomini.com™</p>
+</div>
+</footer>
+</body>
+</html>

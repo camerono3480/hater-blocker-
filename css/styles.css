@@ -1,0 +1,194 @@
+@charset "UTF-8";
+@import "botstrap.css";
+.cmma {
+  position: absolute;
+  left: 90px;
+  top: 20px;
+}
+a:link.hi {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited.hi {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover.hi {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active.hi {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.nav-bar {
+  position: absolute;
+  left: 50px;
+  top: 5px;
+  width: 60%;
+  height: 100px;
+  border-bottom: 1px solid rgba(255,255,255,.25);
+}
+a.act1 {
+  position: absolute;
+  left: 64%;
+  top: 1010px;
+  display: inline-block;
+  width: 100px;
+  padding: 8px;
+  color: #4286f4;
+  border: 1px solid #4286f4;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+   -moz-border-radius: 3px;
+ -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+a.act1:hover {
+  color: #a50b0b;
+  border: 1px solid #a50b0b;
+}
+
+
+a.act {
+  position: absolute;
+  left: 38.3%;
+  top: 1010px;
+  display: inline-block;
+  width: 100px;
+  padding: 8px;
+  color: #4286f4;
+  border: 1px solid #4286f4;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+   -moz-border-radius: 3px;
+ -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+a.act:hover {
+  color: #a50b0b;
+  border: 1px solid #a50b0b;
+}
+.pa {
+  position: absolute;
+  top: 45px;
+  left: 40px;
+}
+
+#htd {
+    position: absolute;
+    top: 50px;
+	right: 30px;
+    }
+h2.pos_left {
+    position: fixed;
+    top: 10px;
+    right: 40px;
+}
+h2.pos_x {
+  position: fixed;
+  right: 250px;
+  top: 12px;
+}
+h2.pot_y {
+   position: fixed;
+   right: 470px;
+   top: 13px;
+}
+.ghost-button {
+  position: absolute;
+  left: 11.2%;
+  top: 1010px;
+  display: inline-block;
+  width: 100px;
+  padding: 8px;
+  color: #4286f4;
+  border: 1px solid #4286f4;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+   -moz-border-radius: 3px;
+ -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.ghost-button:hover{
+  color: #a50b0b;
+  border: 1px solid #a50b0b;
+}
+#textTab{
+
+    padding:100px;
+	margin: 10px 90px 40px 40px;
+    background-color:#ededec;
+    height:90px;
+	width:200px;
+
+}
+img.ico2 {
+  position: absolute;
+  left: 66%;
+}
+img.ico1 {
+   position: absolute;
+   left: 40%;
+}
+img.ico {
+   position: absolute;
+  left: 13%;
+}
+#parallax {
+    /*The image used*/
+
+    /* Set a specific height*/
+    height: 500px;
+  background-attachment: fixed;
+  background-color: #fff;
+  background-position: 50% 0px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size:    cover;
+  background-size:         cover;
+}
+
+
+
+
+  footer{
+      position: absolute;
+      left: 1px;
+      top: 1100px;
+      line-height:30px;
+      background-color: #778ac4;
+      background: -webkit-linear-gradient(#778ac4, #30cadb);
+      height: 150px;
+      width: 99.7%;
+      float: top;
+     border-radius: 4px;
+     background: linear-gradient(270deg, #778ac4, #30cadb, #20929f, #0b5d83, #5610a8);
+background-size: 1000% 1000%;
+
+-webkit-animation: AnimationName 12s ease infinite;
+-moz-animation: AnimationName 12s ease infinite;
+animation: AnimationName 12s ease infinite;
+    }
+    @-webkit-keyframes AnimationName {
+   0%{background-position:0% 50%}
+   50%{background-position:100% 50%}
+   100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+   0%{background-position:0% 50%}
+   50%{background-position:100% 50%}
+   100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+   0%{background-position:0% 50%}
+   50%{background-position:100% 50%}
+   100%{background-position:0% 50%}
+}
